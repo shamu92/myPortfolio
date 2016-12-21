@@ -1,14 +1,14 @@
-// variables 
-$mobile-break-width: 560px;
+// ***********variables **************************
+$mobile-break-width: 680px;
 $tablet-break-width:900px;
-// mixins
+// ***********mixins **************************
 @mixin mobile-break-width {
     @media (min-width: $mobile-break-width) {
         @content;
     }
 }
 
-@mixin mobile-break-width {
+@mixin tablet-break-width {
     @media (min-width: $tablet-break-width) {
         @content;
     }

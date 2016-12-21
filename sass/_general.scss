@@ -1,3 +1,4 @@
+// ***********general styling section **************************
 body {
     background: white;
 }
@@ -10,7 +11,11 @@ h2,
     letter-spacing: .5px;
 }
 
-h3,
+h3 {
+    font-family: 'Muli';
+    letter-spacing: .8px;
+}
+
 p {
     font-family: 'Muli';
     opacity: .9;
