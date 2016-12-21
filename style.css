@@ -236,6 +236,19 @@ header {
     margin: 0 auto;
     border-radius: 10px; }
 
+.aboutLastParagraph {
+  position: relative;
+  margin-bottom: 30px; }
+  .aboutLastParagraph::after {
+    display: block;
+    content: '';
+    width: 60vw;
+    height: 1px;
+    background: lightgrey;
+    position: absolute;
+    bottom: -25px;
+    left: 10vw; }
+
 .projects {
   display: -ms-flexbox;
   display: flex;
@@ -247,6 +260,8 @@ header {
   .projects img {
     width: 80vw;
     border-radius: 5px; }
+    .projects img:hover {
+      border: 3px solid lightgrey; }
   .projects p {
     width: 80vw;
     margin: 3vh auto;
@@ -271,3 +286,5 @@ footer {
     font-weight: 700; }
   footer a {
     margin: 10px 0; }
+  footer .fa {
+    padding-right: 7px; }

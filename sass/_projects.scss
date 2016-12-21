@@ -6,6 +6,9 @@
     img {
         width: 80vw;
         border-radius: 5px;
+        &:hover {
+            border: 3px solid lightgrey;
+        }
     }
     p {
         width: 80vw;

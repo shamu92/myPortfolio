@@ -20,3 +20,18 @@
     }
     // border-bottom: 1px solid lightgray;
 }
+
+.aboutLastParagraph {
+    position: relative;
+    margin-bottom: 30px;
+    &::after {
+        display: block;
+        content: '';
+        width: 60vw;
+        height: 1px;
+        background: lightgrey;
+        position: absolute;
+        bottom: -25px;
+        left: 10vw;
+    }
+}
