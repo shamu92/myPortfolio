@@ -1,14 +1,16 @@
 header {
-    height: 75px;
+    height: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: white;
+    background: none;
     width: 100vw;
     position: fixed;
     a {
         text-decoration: none;
         font-size: 14px;
         text-transform: uppercase;
+        font-family: 'Muli';
+        font-weight: 700;
     }
 }
