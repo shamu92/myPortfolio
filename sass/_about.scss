@@ -5,6 +5,9 @@
     display: flex;
     justify-content: center;
     flex-flow: column;
+    .desktopName {
+        display: none;
+    }
     .aboutText {
         width: 80vw;
         margin: 0 auto;
@@ -59,11 +62,36 @@ h1 {
 }
 
 @include tablet-break-width {
+    .about {
+        flex-flow: row;
+        justify-content: space-around;
+        align-content: center;
+        width: 80vw;
+        .desktopName {
+            display: block;
+        }
+        .mobileName {
+            display: none;
+        }
+        .aboutText {
+            width: 55vw;
+        }
+    }
     h1 {
-        font-size: 3.2rem;
-        margin-bottom: 3rem;
+        font-size: 2.7rem;
+        margin: .6rem auto;
+    }
+    p {
+        margin-top: 0;
+        text-align: center;
     }
     .about img {
-        width: 35vw;
+        height: 70vh;
+        width: auto;
+        // margin-top: 3vh;
+        margin-right: 20px;
+    }
+    .aboutLastParagraph::after {
+        left: 0;
     }
 }
