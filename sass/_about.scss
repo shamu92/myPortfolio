@@ -1,0 +1,17 @@
+.about {
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    .aboutText {
+        text-align: left;
+        width: 80vw;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    img {
+        width: 80vw;
+        margin: 0 auto;
+    }
+}
