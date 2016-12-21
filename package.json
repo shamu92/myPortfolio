@@ -1,0 +1,26 @@
+{
+  "name": "my_portfolio",
+  "version": "1.0.0",
+  "description": "my project portfolio",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamu92/myPortfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "projects",
+    "project"
+  ],
+  "author": "Aleksandr Altshteyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamu92/myPortfolio/issues"
+  },
+  "homepage": "https://github.com/shamu92/myPortfolio#readme"
+}
