@@ -4,18 +4,22 @@ body {
 
 h1,
 h2,
-h3 {
-    font-family: 'Muli';
-    text-transform: uppercase;
+{
+    font-family: 'Arbutus Slab';
+    font-weight: 400;
+    letter-spacing: .5px;
 }
 
+h3,
 p {
-    font-family: 'Sintony'
+    font-family: 'Muli';
+    opacity: .9;
 }
 
 a {
     text-decoration: none;
     color: black;
+    font-family: 'Muli';
     &:hover {
         color: goldenrod;
     }

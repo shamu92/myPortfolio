@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Sintony");
+@import url("https://fonts.googleapis.com/css?family=Arbutus+Slab");
 @import url("https://fonts.googleapis.com/css?family=Muli");
 html {
   font-family: sans-serif;
@@ -180,17 +180,20 @@ body {
   background: white; }
 
 h1,
-h2,
-h3 {
-  font-family: 'Muli';
-  text-transform: uppercase; }
+h2 {
+  font-family: 'Arbutus Slab';
+  font-weight: 400;
+  letter-spacing: .5px; }
 
+h3,
 p {
-  font-family: 'Sintony'; }
+  font-family: 'Muli';
+  opacity: .9; }
 
 a {
   text-decoration: none;
-  color: black; }
+  color: black;
+  font-family: 'Muli'; }
   a:hover {
     color: goldenrod; }
 
@@ -223,12 +226,11 @@ header {
       flex-flow: column; }
   .about .aboutText {
     width: 80vw;
-    margin: 0 auto;
-    font-size: 14px; }
+    margin: 0 auto; }
     .about .aboutText h1 {
       text-align: center;
-      font-size: 1.3rem;
-      margin: 2.5rem 0; }
+      font-size: 1.5rem;
+      margin: 3rem 0; }
   .about img {
     width: 70vw;
     margin: 0 auto;
@@ -250,7 +252,22 @@ header {
     margin: 3vh auto;
     margin-bottom: 2rem; }
   .projects h2 {
-    margin: 2.5rem 0; }
-  .projects h3 {
     margin: 2rem 0;
-    font-weight: 300; }
+    margin-bottom: 0; }
+  .projects h3 {
+    margin: 1.5rem 0;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase; }
+
+footer {
+  text-align: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+      flex-flow: column;
+  margin: 50px 0; }
+  footer p a {
+    font-weight: 700; }
+  footer a {
+    margin: 10px 0; }
