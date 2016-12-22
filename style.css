@@ -1269,9 +1269,9 @@ h1 {
   .projects img {
     width: 80vw;
     border-radius: 5px;
-    border: 1px solid white; }
+    border: 2px solid white; }
     .projects img:hover {
-      border: 1px solid darkslategrey; }
+      border: 2px solid lightgoldenrodyellow; }
   .projects p {
     width: 80vw;
     margin: 3vh auto;
