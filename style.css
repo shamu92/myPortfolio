@@ -1249,13 +1249,14 @@ h1 {
     margin: .6rem auto; }
   p {
     margin-top: 0;
-    text-align: center; }
+    padding-left: 30px; }
   .about img {
     height: 70vh;
     width: auto;
     margin-right: 20px; }
   .aboutLastParagraph::after {
-    left: 0; } }
+    left: 0;
+    width: 55vw; } }
 
 .projects {
   display: -ms-flexbox;
