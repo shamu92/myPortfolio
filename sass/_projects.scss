@@ -7,8 +7,9 @@
     img {
         width: 80vw;
         border-radius: 5px;
+        border: 1px solid white;
         &:hover {
-            border: 2px solid lightgrey;
+            border: 1px solid darkslategrey;
         }
     }
     p {

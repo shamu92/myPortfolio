@@ -1268,9 +1268,10 @@ h1 {
   text-align: center; }
   .projects img {
     width: 80vw;
-    border-radius: 5px; }
+    border-radius: 5px;
+    border: 1px solid white; }
     .projects img:hover {
-      border: 2px solid lightgrey; }
+      border: 1px solid darkslategrey; }
   .projects p {
     width: 80vw;
     margin: 3vh auto;
