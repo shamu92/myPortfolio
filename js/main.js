@@ -4,14 +4,14 @@ $(document).ready(function() {
             $('header').css("background", "black")
             $('header').css("opacity", ".8")
             $('header a').css("color", "white")
-            $('header a:hover').css("color", "goldenrod")
+            $('header h1').css("color", "white")
 
 
 
         } else {
             $('header').css("background", "none");
             $('header a').css("color", "black")
-            $('header a:hover').css("color", "goldenrod")
+            $('header h1').css("color", "black")
 
 
         }
