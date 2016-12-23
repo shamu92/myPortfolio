@@ -7,9 +7,9 @@
     img {
         width: 80vw;
         border-radius: 5px;
-        border: 2px solid white;
+        border: 1px solid white;
         &:hover {
-            border: 2px solid lightgoldenrodyellow;
+            border: 1px solid black;
         }
     }
     p {
@@ -28,7 +28,7 @@
 
 h2 {
     margin-top: 35px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: center;
     padding-top: 75px;
 }

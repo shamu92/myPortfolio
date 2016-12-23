@@ -1,13 +1,14 @@
     // ***********about styling section **************************
+    .desktopName {
+        display: none;
+    }
+    
     .about {
         margin: 0 auto;
         padding-top: 125px;
         display: flex;
         justify-content: center;
         flex-flow: column;
-        .desktopName {
-            display: none;
-        }
         .aboutText {
             width: 80vw;
             margin: 0 auto;
@@ -15,7 +16,7 @@
         }
         img {
             width: 70vw;
-            margin: 20px 0;
+            margin: 20px auto;
             border-radius: 10px;
         }
         // border-bottom: 1px solid lightgray;
@@ -61,14 +62,14 @@
     }
     
     @include tablet-break-width {
+        .desktopName {
+            display: block;
+        }
         .about {
             flex-flow: row;
             justify-content: space-around;
             align-items: center;
             width: 80vw;
-            .desktopName {
-                display: block;
-            }
             .mobileName {
                 display: none;
             }
@@ -84,6 +85,7 @@
                 width: auto;
                 // margin-top: 3vh;
                 margin-right: 20px;
+                margin-left: 0;
             }
         }
         .aboutLastParagraph::after {

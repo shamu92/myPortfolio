@@ -16,7 +16,6 @@ header {
             text-transform: uppercase;
             font-family: 'Montserrat';
             font-weight: 400;
-            padding-left: 25px;
             &:hover {
                 color: goldenrod;
             }
@@ -27,9 +26,22 @@ header {
             text-transform: uppercase;
             font-weight: 900;
         }
+        .topNav {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
     }
-    // @include tablet-break-width {
-    //     max-width: 1200px;
-    //     margin: 0 auto;
-    // }
+}
+
+@include tablet-break-width {
+    header .headerContent {
+        .topNav {
+            justify-content: flex-end;
+            width: 35vw;
+        }
+        a {
+            padding-left: 25px;
+        }
+    }
 }
