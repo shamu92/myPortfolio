@@ -1132,6 +1132,9 @@ th {
 .rollOut.goAway {
   animation-name: rollOut; }
 
+html {
+  overflow-x: hidden; }
+
 body {
   background: white;
   width: 100vw;
@@ -1153,7 +1156,7 @@ a {
   color: black;
   font-family: 'Courier New OS'; }
   a:hover {
-    color: goldenrod; }
+    color: goldenrod !important; }
 
 header {
   position: fixed;

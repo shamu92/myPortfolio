@@ -1,4 +1,8 @@
 // ***********general styling section **************************
+html {
+    overflow-x: hidden;
+}
+
 body {
     background: white;
     width: 100vw;
@@ -23,6 +27,6 @@ a {
     color: black;
     font-family: 'Courier New OS';
     &:hover {
-        color: goldenrod;
+        color: goldenrod !important;
     }
 }
