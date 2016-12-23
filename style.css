@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
-@import url("https://fonts.googleapis.com/css?family=Courier+New+OS");
+@import url("https://fonts.googleapis.com/css?family=Lato");
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -1148,13 +1148,13 @@ h3 {
   letter-spacing: .5px; }
 
 p {
-  font-family: 'Courier New OS';
+  font-family: 'Lato';
   opacity: .9; }
 
 a {
   text-decoration: none;
   color: black;
-  font-family: 'Courier New OS'; }
+  font-family: 'Lato'; }
   a:hover {
     color: goldenrod !important; }
 
