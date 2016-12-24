@@ -13,3 +13,5 @@ Technologies used:
 * Gulp
 
 ### Created and Designed by: Aleksandr Altshteyn
+
+![photo of Aleksandr](https://github.com/shamu92/myPortfolio/blob/master/images/me-red.jpg "Aleksadnr Altshteyn")
