@@ -36,6 +36,7 @@ header {
 
 @include tablet-break-width {
     header .headerContent {
+        height: 100px;
         .topNav {
             justify-content: flex-end;
             width: 35vw;

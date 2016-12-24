@@ -30,7 +30,7 @@ h2 {
     margin-top: 35px;
     margin-bottom: 40px;
     text-align: center;
-    padding-top: 75px;
+    padding-top: 100px;
 }
 
 .pongGame p {
@@ -90,6 +90,6 @@ h2 {
         font-size: 1.5rem;
     }
     .pongGame p::after {
-        left: -10vw;
+        display: none;
     }
 }

@@ -1193,12 +1193,14 @@ header {
       width: 100%; }
 
 @media (min-width: 900px) {
-  header .headerContent .topNav {
-    -ms-flex-pack: end;
-        justify-content: flex-end;
-    width: 35vw; }
-  header .headerContent a {
-    padding-left: 25px; } }
+  header .headerContent {
+    height: 100px; }
+    header .headerContent .topNav {
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+      width: 35vw; }
+    header .headerContent a {
+      padding-left: 25px; } }
 
 .desktopName {
   display: none; }
@@ -1260,8 +1262,6 @@ h1 {
         flex-flow: row;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    -ms-flex-align: center;
-        align-items: center;
     width: 80vw; }
     .about .mobileName {
       display: none; }
@@ -1307,7 +1307,7 @@ h2 {
   margin-top: 35px;
   margin-bottom: 40px;
   text-align: center;
-  padding-top: 75px; }
+  padding-top: 100px; }
 
 .pongGame p {
   position: relative; }
@@ -1353,7 +1353,7 @@ h2 {
   a {
     font-size: 1.5rem; }
   .pongGame p::after {
-    left: -10vw; } }
+    display: none; } }
 
 footer {
   text-align: center;
