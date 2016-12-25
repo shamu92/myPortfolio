@@ -1289,7 +1289,7 @@ h1 {
   .projects img {
     width: 80vw;
     border-radius: 5px;
-    border: 1px solid white; }
+    border: 1px solid grey; }
     .projects img:hover {
       border: 1px solid black; }
   .projects p {
