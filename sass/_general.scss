@@ -24,9 +24,23 @@ p {
 
 a {
     text-decoration: none;
-    color: black;
+    color: grey;
     font-family: 'Lato';
     &:hover {
-        color: goldenrod !important;
+        color: black;
+    }
+}
+
+header a {
+    color: black;
+    &:hover {
+        color: grey !important;
+    }
+}
+
+footer a {
+    color: black;
+    &:hover {
+        color: grey;
     }
 }

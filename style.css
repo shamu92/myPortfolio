@@ -1153,10 +1153,20 @@ p {
 
 a {
   text-decoration: none;
-  color: black;
+  color: grey;
   font-family: 'Lato'; }
   a:hover {
-    color: goldenrod !important; }
+    color: black; }
+
+header a {
+  color: black; }
+  header a:hover {
+    color: grey !important; }
+
+footer a {
+  color: black; }
+  footer a:hover {
+    color: grey; }
 
 header {
   position: fixed;
@@ -1289,7 +1299,7 @@ h1 {
   .projects img {
     width: 80vw;
     border-radius: 5px;
-    border: 1px solid grey; }
+    border: 1px solid lightgrey; }
     .projects img:hover {
       border: 1px solid black; }
   .projects p {
