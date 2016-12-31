@@ -1295,15 +1295,15 @@ h1 {
       flex-flow: column;
   -ms-flex-pack: center;
       justify-content: center;
-  text-align: center; }
+  text-align: center;
+  width: 80vw;
+  margin: 0 auto; }
   .projects img {
-    width: 80vw;
     border-radius: 5px;
     border: 1px solid lightgrey; }
     .projects img:hover {
       border: 1px solid black; }
   .projects p {
-    width: 80vw;
     margin: 3vh auto;
     margin-bottom: 2rem; }
   .projects h3 {
@@ -1313,7 +1313,7 @@ h1 {
     font-size: 1rem;
     text-transform: uppercase; }
 
-h2 {
+.projectTitle {
   margin-top: 35px;
   margin-bottom: 40px;
   text-align: center;
@@ -1350,8 +1350,8 @@ h2 {
         flex-flow: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around; }
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
     .projects .project {
       width: 38vw; }
       .projects .project img {
@@ -1371,9 +1371,10 @@ footer {
   display: flex;
   -ms-flex-flow: column;
       flex-flow: column;
-  margin: 50px 0; }
+  margin: 100px 0; }
   footer h2 {
-    margin-top: 0; }
+    margin: 0;
+    margin-bottom: 25px; }
   footer p a {
     font-weight: 700; }
   footer a {
