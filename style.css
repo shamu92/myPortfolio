@@ -1218,6 +1218,7 @@ header {
 .about {
   margin: 0 auto;
   padding-top: 125px;
+  margin-top: 25px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
