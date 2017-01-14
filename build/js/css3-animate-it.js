@@ -477,6 +477,6 @@ $(document.body).on('disappear', '.animatedParent', function(e, $affected) {
     }
 });
 
-$(window).load(function() {
-    $.force_appear();
-});
+// $(window).load(function() {
+//     $.force_appear();
+// });
